@@ -1,0 +1,439 @@
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, #743ad5, #d53a9d);
+
+}
+
+.buttons {
+    display: flex;
+    width: 33%;
+    margin-right: 0;
+}
+
+.testDelete {
+    text-decoration: none;
+    width: 4.5vw;
+    height: 3.5vh;
+    background: linear-gradient(to left, #743ad5, #d53a9d);
+    -webkit-text-fill-color: white;
+
+    color: white;
+    font-family: 'Lato', sans-serif;
+    border-radius: 1vw;
+    font-weight: 700;
+    font-size: 12px;
+
+}
+
+.textListTest {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    background: linear-gradient(to left, #743ad5, #d53a9d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 17.5px;
+    font-weight: 700;
+    width: 20vw;
+    display: flex;
+
+}
+
+.testEdit {
+    text-decoration: none;
+    width: 4.5vw;
+    height: 3.5vh;
+    background: linear-gradient(to left, #743ad5, #d53a9d);
+    -webkit-text-fill-color: white;
+
+    color: white;
+    font-family: 'Lato', sans-serif;
+    border-radius: 1vw;
+    font-weight: 700;
+    font-size: 12px;
+
+}
+
+#break {
+    width: 66%;
+}
+
+.text {
+    background: linear-gradient(to left, #743ad5, #d53a9d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw;
+}
+
+
+#nav {
+    width: 100vw;
+    border-style: solid;
+    border-width: 1.25vw;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    border-image-slice: 3;
+    background: white;
+
+}
+
+#idk {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 70vh;
+    width: 35vw;
+    background: white;
+    left: 50vw;
+    top: 55vh;
+    transform: translate(-50%, -50%);
+
+}
+
+#innerText {
+    position: absolute;
+    top: 3vh;
+    display: inline;
+}
+
+#inputField {}
+
+#bullets {
+    position: absolute;
+    top: 40vh;
+}
+
+
+
+
+
+#input {
+    border-top: 0.25vw;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    border-width: 0.25vw;
+    border-image-slice: 1;
+    border-right-style: none;
+    border-left-style: none;
+    width: 20vw;
+    height: 2vh;
+
+}
+
+#inputArea {
+    top: 15vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 35vw;
+    height: 5vh;
+}
+
+ul {}
+
+
+#submitButton {
+    text-decoration: none;
+    right: 1.5vw;
+    position: absolute;
+    width: 5vw;
+    height: 4vh;
+    background: linear-gradient(to left, #743ad5, #d53a9d);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    border-radius: 1vw;
+    font-weight: 700;
+    font-size: 15px;
+
+
+}
+
+#listArea {
+    position: absolute;
+    top: 25vh;
+    width: 25vw;
+    height: 35vh;
+    border-style: solid;
+    border-width: 0.75vw;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    border-image-slice: 3;
+    background: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+
+.btn {
+    text-decoration: none;
+    width: 4.5vw;
+    height: 3.5vh;
+    background: linear-gradient(to left, #743ad5, #d53a9d);
+    -webkit-text-fill-color: white;
+
+    color: white;
+    font-family: 'Lato', sans-serif;
+    border-radius: 1vw;
+    font-weight: 700;
+    font-size: 12px;
+
+
+}
+
+.edit {
+    text-decoration: none;
+    width: 4.5vw;
+    height: 3.5vh;
+    background: linear-gradient(to left, #743ad5, #d53a9d);
+    -webkit-text-fill-color: white;
+
+    color: white;
+    font-family: 'Lato', sans-serif;
+    border-radius: 1vw;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.submitButton {
+    text-decoration: none;
+    width: 4.5vw;
+    height: 3.5vh;
+    background: linear-gradient(to left, #743ad5, #d53a9d);
+    -webkit-text-fill-color: white;
+
+    color: white;
+    font-family: 'Lato', sans-serif;
+    border-radius: 1vw;
+    font-weight: 700;
+    font-size: 12px;
+
+
+}
+
+.editButton {
+    text-decoration: none;
+    width: 4.5vw;
+    height: 3.5vh;
+    background: linear-gradient(to left, #743ad5, #d53a9d);
+    -webkit-text-fill-color: white;
+
+    color: white;
+    font-family: 'Lato', sans-serif;
+    border-radius: 1vw;
+    font-weight: 700;
+    font-size: 12px;
+    position: absolute;
+    right: 5vw;
+    min-width: 25px;
+    margin-right: 0.5vw;
+}
+
+span {
+    max-width: 60%;
+}
+
+.textList {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    background: linear-gradient(to left, #743ad5, #d53a9d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 17.5px;
+    font-weight: 700;
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.editField {
+    -webkit-text-fill-color: black;
+
+    color: black;
+    width: 9vw;
+    height: 2vh;
+}
+
+li {
+    margin: 0;
+}
+
+#divArea {
+    width: 25vw;
+}
+
+@media screen and (max-width: 1024px) {
+    .editField {
+        width: 11vw;
+    }
+
+    .submitButton {
+        width: 7.5vw;
+    }
+
+    #idk {
+        width: 50vw;
+    }
+
+    #inputArea {
+        width: 40vw;
+    }
+
+    #submitButton {
+        right: 1vw;
+        width: 7vw;
+
+    }
+
+    #input {
+        width: 22.5vw;
+
+    }
+
+    #listArea {
+        width: 30vw;
+    }
+
+    .textList {
+        width: 25vw;
+    }
+
+    .btn {
+        width: 5vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .editField {
+        width: 13vw;
+
+    }
+
+    #idk {
+        width: 55vw;
+    }
+
+    #inputArea {
+        width: 42.5vw;
+    }
+
+    .submitButton {
+        width: 12.5vw;
+    }
+
+    #submitButton {
+        right: 0vw;
+        width: 9vw;
+
+    }
+
+    #input {
+        width: 22.5vw;
+        border-width: 0.5vw;
+
+    }
+
+    #listArea {
+        width: 35vw;
+    }
+
+    .textList {
+        width: 30vw;
+    }
+
+    .btn {
+        width: 7.5vw;
+    }
+
+    ul {
+        padding-left: 3vw;
+        padding-top: 0vh;
+        padding-bottom: 1vh;
+        list-style-type: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .editField {
+        width: 15vw;
+    }
+
+    #idk {
+        width: 75vw;
+    }
+
+    #inputArea {
+        width: 57.5vw;
+    }
+
+    #submitButton {
+        right: 0vw;
+        width: 15vw;
+
+    }
+
+    #input {
+        width: 25vw;
+        border-width: 0.5vw;
+
+    }
+
+    #listArea {
+        width: 55vw;
+    }
+
+    .textList {
+        width: 45vw;
+    }
+
+    .btn {
+        width: 12.5vw;
+    }
+
+    ul {
+        padding-left: 3vw;
+        padding-top: 0;
+        padding-bottom: 1vh;
+        list-style-type: none;
+    }
+
+    .edit {
+        width: 9vw;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .submitButton {
+        width: 17vw;
+    }
+
+    #inputArea {
+        width: 65vw;
+    }
+
+    #submitButton {
+        width: 17vw;
+    }
+
+
+
+
+}
